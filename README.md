@@ -6,6 +6,7 @@
 <p>Syarat Minimal:</p>
 <ul>
 <li>SSR untuk halaman katalog dengan incremental rendering untuk tiap-tenant (caching per tenant).</li>
+<li>Implementasi penggunaan tabs di halaman produk untuk setiap produk yang diklik.</li>
 <li>Isolasi data tenant: tidak boleh ada kemungkinan satu tenant membaca data tenant lain pada runtime.</li>
 <li>Checkout fake: API route membuat &ldquo;order&rdquo; ke mock persisted store; simulasikan race condition ketika 2 request memesan stok terakhir.</li>
 </ul>
